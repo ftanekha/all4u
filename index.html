@@ -23,32 +23,40 @@
         crossorigin='anonymous' referrerpolicy='no-referrer' defer>
     </script>
     <script id='navbar_template' type='text/x-handlebars-template' defer>
-        <!-- create page here-->
-            <div class='row my-3 bg-white'>
-                <div id='company_logo_container' class='col-sm-4'>
-                    <img class='company_logo mt-3 img-fluid' src='./images/currentLogo.jfif' alt='company_logo'>
-                </div>
-                <div class='col-sm-8'>
-                    <ul class='list-inline p-5'>
-                        <div class='row'>
-                            {{#each nav}}  
-                            <div class='col text-center'>
-                                <li class='nav-item list-inline-item text-uppercase fw-bolder'>
-                                    <a class='text-decoration-none text-dark' href={{this.href}}>{{this.id}}</a>
-                                </li>
-                            </div>
-                            {{/each}}
-                        </div>
-                    </ul>
-                </div>
+    <!-- create page here-->
+        <div class='row my-3'>
+            <div id='company_logo_container' class='col-sm-12 col-md-4'>
+                <img class='company_logo mt-3 img-fluid' src='./images/currentLogo.jfif' alt='company_logo'>
             </div>
+            <div class='col-sm-12 col-md-8'>
+                <ul class='list-inline p-5'>
+                    <div class='row'>
+                        {{#each nav}}  
+                        <div class='col text-center'>
+                            <li class='nav_item list-inline-item text-uppercase fw-bolder'>
+                                <a class='text-decoration-none' href={{this.href}}>{{this.id}}</a>
+                            </li>
+                        </div>
+                        {{/each}}
+                    </div>
+                </ul>
+            </div>
+        </div>
     </script>
     <script src='./navbar.js' defer></script>
     <title>All4U Healthcare Solutions</title>
 </head>
 <body>
-    <div id='parent_container' class='container card mt-2 bg-light border-0'>
-        <nav id='navbar'></nav>
-    </div>
+    <header>
+        <div id='parent_container' class='container card mt-2 border-0'>
+            <nav id='navbar'></nav>
+        </div>
+    </header>
+    <main class="my-5 container">
+        <div id='main' class='container'>
+            <div id='landing_page' class='container bg-dark text-white fw-bolder shadow'>welcome to all4u</div>
+        </div>
+    </main>
+    <footer></footer>
 </body>
 </html>

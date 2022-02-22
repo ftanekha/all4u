@@ -1,7 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Rubik&display=swap');
+#parent_container{
+    background-color: #FF008C;
+}
+@media only screen and (max-width: 768px) {
+    #company_logo_container img{
+        position: relative;
+    }
+    #company_logo_container img{
+        position: relative;
+        left: 10%;
+        width: 80%;
+    }
+}
 .company_logo{
     width: 300px;
-    height: 100px;
+    height: 130px;
+    margin:auto;
 }
-.nav-item{
-    font-size:1.5em;
+.nav_item{
+    font-size: 2em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    opacity: .9;
+}
+.nav_item a{
+    color: #093867;
+    text-shadow: #ffffff .01em 0.025em;
+}
+#landing_page{
+    height: 500px;
 }
