@@ -23,7 +23,7 @@
         crossorigin='anonymous' referrerpolicy='no-referrer' defer>
     </script>
     <script id='navbar_template' type='text/x-handlebars-template' defer>
-    <!-- create page here-->
+    <!-- navbar-->
         <div class='row my-3 bg-white'>
             <div id='company_logo_container' class='col-sm-12 col-md-4'>
                 <img id='company_logo' class='mt-3 img-fluid' src='./images/currentLogo.jfif' alt='company_logo'>
@@ -90,6 +90,9 @@
                             <input type='text' class='form-control' id='nationality' aria-describedby='candidate_nationality' required>
                         </div>
                     </div>
+                    <div class='my-5 py-5'>
+                        <hr class='bg-dark my-5'/>
+                    </div>
                     <!-- contact info -->
                     <div class='row'>
                         <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>Contact Details</span></div>
@@ -101,7 +104,7 @@
                             <label for='email' class='form-label'>Email address:</label>
                             <input type='email' class='form-control' id='email' aria-describedby='candidate_email' required>
                             <div id='candidate_email' class='form-text text-secondary'>
-                                <sup>We'll never share your email with a third party without your consent.</sup>
+                                <sup>We'll never share your email with a third party without your consent!</sup>
                             </div>
                         </div>
                         <div class='col-sm-6 mb-3'>
@@ -123,7 +126,7 @@
                     </div>
                     <!-- emergency contacts-->
                     <div class='row'>
-                        <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>PRIMARY Emegency Contact</span></div>
+                        <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>1st Emergency Contact</span></div>
                         <div class='col-sm-12'>
                             <label for='primary_emergency_contact_relationship' class='form-label'>Relationship:</label>
                             <input type='text' class='form-control' id='primary_emergency_contact_relationship' aria-describedby='primary_emergency_contact_relationship' required>
@@ -154,7 +157,7 @@
                         </div>
                     </div>
                     <div class='row'>
-                        <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>SECONDARY Emegency Contact</span></div>
+                        <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>2nd Emergency Contact</span></div>
                         <div class='col-sm-12'>
                             <label for='secondary_emergency_contact_relationship' class='form-label'>Relationship:</label>
                             <input type='text' class='form-control' id='secondary_emergency_contact_relationship' aria-describedby='secondary_emergency_contact_relationship' required>
@@ -184,12 +187,26 @@
                             <input type='text' class='form-control' id='secondary_emergency_contact_p_code' aria-describedby='secondary_emergency_contact_p_code' required>
                         </div>
                     </div>
-                    <!-- consent -->
-                    <div class='mb-3 form-check'>
-                        <input type='checkbox' class='form-check-input' id='candidate_consent'>
-                        <label class='form-check-label' for='candidate_consent'>Agree</label>
+                    <div class='my-5 py-5'>
+                        <hr class='bg-dark my-5'/>
                     </div>
-                    <button type='submit' class='btn btn-primary'>Submit</button>
+                    <!-- application form supporting documents -->
+                    <div class='col-sm-6 my-3'>
+                        <label for='application_form' class='form-label'>Download <span class='text-secondary'>application form</span></label>
+                        <a href='./applicationForms/employmentApplicationForm.docx' download>
+                            <button type='button' class='btn bg_pink fw-bolder text-white'>Download</button>
+                        </a>
+                    </div>
+                    <div class='col-sm-6 my-5'>
+                        <label for='resume' class='form-label'>Upload Your Resume</label>
+                        <input class='form-control' type='file' id='resume'>
+                    </div>
+                    <!-- consent -->
+                    <div class='pt-5 form-check'>
+                        <input type='checkbox' class='form-check-input' id='candidate_consent'>
+                        <label class='form-check-label' for='candidate_consent'>Agree to our <span class='text-secondary'>terms and conditions</span></label>
+                    </div>
+                    <button type='submit' class='btn btn-primary my-5'>Submit</button>
                 </form>
             </div>
             <!-- jobs -->

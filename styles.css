@@ -8,6 +8,9 @@
     color: #FF008C;
 }
 /*  */
+body{
+    font-family: 'Rubik', sans-serif;
+}
 #parent_container{
     background-color: #FF008C;
 }
@@ -42,4 +45,8 @@
 }
 #landing_page{
     display: block;
+}
+/* registration page */
+hr{
+    border: 1.5px solid #FF008C;
 }
