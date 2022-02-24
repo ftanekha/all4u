@@ -10,6 +10,5 @@ context = {
 }
 
 for(let item of navItems) context.nav.push({id: item, href: `#${item}`})
-context.nav[3].href = './contact.html'
 
 document.querySelector('#navbar').innerHTML = template(context)

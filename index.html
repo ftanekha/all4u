@@ -24,9 +24,9 @@
     </script>
     <script id='navbar_template' type='text/x-handlebars-template' defer>
     <!-- create page here-->
-        <div class='row my-3'>
+        <div class='row my-3 bg-white'>
             <div id='company_logo_container' class='col-sm-12 col-md-4'>
-                <img class='company_logo mt-3 img-fluid' src='./images/currentLogo.jfif' alt='company_logo'>
+                <img id='company_logo' class='mt-3 img-fluid' src='./images/currentLogo.jfif' alt='company_logo'>
             </div>
             <div class='col-sm-12 col-md-8'>
                 <ul class='list-inline p-5'>
@@ -34,7 +34,7 @@
                         {{#each nav}}  
                         <div class='col text-center'>
                             <li class='nav_item list-inline-item text-uppercase fw-bolder'>
-                                <a class='text-decoration-none' href={{this.href}}>{{this.id}}</a>
+                                <a id={{this.id}} class='nav_link text-decoration-none' href={{this.href}}>{{this.id}}</a>
                             </li>
                         </div>
                         {{/each}}
@@ -44,6 +44,7 @@
         </div>
     </script>
     <script src='./navbar.js' defer></script>
+    <script src='./navbarControl.js' defer></script>
     <title>All4U Healthcare Solutions</title>
 </head>
 <body>
@@ -54,7 +55,11 @@
     </header>
     <main class="my-5 container">
         <div id='main' class='container'>
-            <div id='landing_page' class='container bg-dark text-white fw-bolder shadow'>welcome to all4u</div>
+            <div id='landing_page' class='container page bg-dark text-white fw-bolder shadow'>landing</div>
+            <div id='about_page' class='container page bg-dark text-white fw-bolder shadow'>about</div>
+            <div id='registration_page' class='container page bg-dark text-white fw-bolder shadow'>reg</div>
+            <div id='jobs_page' class='container page bg-dark text-white fw-bolder shadow'>jobs</div>
+            <div id='contact_page' class='container page bg-dark text-white fw-bolder shadow'>contact</div>
         </div>
     </main>
     <footer></footer>
