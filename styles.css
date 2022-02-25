@@ -7,6 +7,12 @@
 .text_pink{
     color: #FF008C;
 }
+.bg_blue{
+    background-color: #093867;
+}
+.text_blue{
+    color: #093867;
+}
 /*  */
 body{
     font-family: 'Rubik', sans-serif;
