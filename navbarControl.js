@@ -9,7 +9,6 @@ for(let link of links) link.addEventListener(
         for (let page of pages) page.style.display = 'none'
         //display only corresponding link
         document.querySelector(`#${link.id}_page`).style.display = 'block' 
-        
     }
 )
 

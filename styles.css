@@ -61,3 +61,24 @@ body{
 hr{
     border: 1.5px solid #FF008C;
 }
+/* contact page */
+.gmap_canvas{
+    overflow:hidden;
+    background:none !important;
+    width: 400px;
+    margin: auto;
+}
+/* footer */
+footer #copyright_info{
+    position: fixed;
+    bottom: 1em;
+    left: 0;
+}
+footer #social_media_icons{
+    position: fixed;
+    bottom: 1em;
+    right: 0;
+}
+/* .company_address{
+    display: inline-block;
+} */
