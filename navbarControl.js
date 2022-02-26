@@ -16,5 +16,5 @@ for(let link of links) link.addEventListener(
 //logo returns to landing page
 logo.addEventListener('click', ()=> {
     for (let page of pages) page.style.display = 'none'
-    document.querySelector(`#landing_page`).style.display = 'block' 
+    document.querySelector(`#home_page`).style.display = 'block' 
 })

@@ -4,7 +4,7 @@ const
 source = document.querySelector('#navbar_template').innerHTML,
 template = Handlebars.compile(source),
 
-navItems = ['about', 'registration', 'jobs', 'contact'],
+navItems = ['home', 'about', 'registration', 'jobs', 'contact'],
 context = {
     nav: []
 }

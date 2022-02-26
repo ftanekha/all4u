@@ -49,8 +49,13 @@ body{
     /* height: 500px; */
     display: none;
 }
-#landing_page{
+#home_page{
     display: block;
+}
+/* about page */
+#company_description{
+    width: 60%;
+    margin: auto;
 }
 /* registration page */
 hr{
