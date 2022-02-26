@@ -62,11 +62,24 @@ hr{
     border: 1.5px solid #FF008C;
 }
 /* contact page */
+#contact_page{
+    position: relative;
+}
 .gmap_canvas{
     overflow:hidden;
     background:none !important;
-    width: 400px;
-    margin: auto;
+}
+@media only screen and (min-width: 768px) {
+    #company_address_map{
+        position: absolute;
+        top: 2em;
+        right: 2em;
+    }
+}
+@media only screen and (max-width: 765px) {
+    #company_address_map{
+        padding-left: 2em;
+    }
 }
 /* footer */
 footer #copyright_info{
