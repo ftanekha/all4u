@@ -20,6 +20,7 @@ body{
 #parent_container{
     background-color: #FF008C;
 }
+/* navbar */
 @media only screen and (max-width: 768px) {
     #company_logo_container img{
         position: relative;
@@ -41,9 +42,14 @@ body{
     font-weight: bolder;
     opacity: .9;
 }
-.nav_item a{
+.nav_link{
     color: #093867;
     text-shadow: #ffffff .01em 0.025em;
+}
+@media only screen and (max-width: 600px) {
+    .nav_link{
+        font-size: .5em;
+    }
 }
 .page{
     /* height: 500px; */
