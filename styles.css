@@ -89,6 +89,7 @@ footer #copyright_info{
     position: fixed;
     bottom: 1em;
     left: 0;
+    font-size: .7em;
 }
 footer #social_media_icons{
     position: fixed;
