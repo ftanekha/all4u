@@ -80,6 +80,9 @@ hr{
     #company_address_map{
         padding-left: 2em;
     }
+    #copyright_info{
+        display: none;
+    }
 }
 /* footer */
 footer #copyright_info{
