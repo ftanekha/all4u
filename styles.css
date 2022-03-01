@@ -42,6 +42,11 @@ body{
     font-weight: bolder;
     opacity: .9;
 }
+@media only screen and (max-width: 2000px) {
+    .nav_item a{
+        font-size: large;
+    }
+}
 .nav_link{
     color: #093867;
     text-shadow: #ffffff .01em 0.025em;
@@ -67,6 +72,14 @@ body{
 #candidate_registration_form_container{
     width: 70%;
     margin: auto;
+}
+@media only screen and (max-width: 2000px) {
+    .nav_item a{
+        font-size: large;
+    }
+    #registration_page{
+        font-size: .8em;
+    }
 }
 hr{
     border: 1.5px solid #FF008C;
