@@ -64,6 +64,10 @@ body{
     margin: auto;
 }
 /* registration page */
+#candidate_registration_form{
+    width: 70%;
+    margin: auto;
+}
 hr{
     border: 1.5px solid #FF008C;
 }
@@ -74,6 +78,10 @@ hr{
 .gmap_canvas{
     overflow:hidden;
     background:none !important;
+}
+.gmap_canvas iframe{
+    width: 500px; 
+    height: 350px;
 }
 @media only screen and (min-width: 768px) {
     #company_address_map{

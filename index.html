@@ -112,10 +112,10 @@
             </div>
             <!-- registration -->
             <div id='registration_page' class='container page py-3 bg-light text_blue fw-bolder'>
-                <div>
+                <div id='candidate_registration_form'>
                     <form method='post' action='' class='bg-light rounded-top ext-white mt-3 p-3'>
                         <!-- names -->
-                        <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>Personal Information</span></div>
+                        <div class='my-5 text-center'> <span class='candidate_registration_form_section_title rounded-pill fw-bold text-white bg-secondary p-3'>Personal Information</span></div>
                         <div class='row'>
                             <div class='col-sm-12 col-md-2 my-3'>
                                 <label for='candidate_title' class='form-label'>Title:</label>
@@ -147,7 +147,7 @@
                         </div>
                         <!-- canditate contact info -->
                         <div class='row'>
-                            <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>Contact Details</span></div>
+                            <div class='my-5 text-center'> <span class='candidate_registration_form_section_title rounded-pill fw-bold text-white  bg-secondary p-3'>Contact Details</span></div>
                             <div class='col-sm-6 mb-3'>
                                 <label for='candidate_contact_number' class='form-label'>Contact number:</label>
                                 <input type='tel' class='form-control' id='candidate_contact_number' aria-describedby='candidate_contact_number' name='candidate_contact_number' required/>
@@ -178,7 +178,7 @@
                         </div>
                         <!-- emergency contacts-->
                         <div class='row'>
-                            <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>1st Emergency Contact</span></div>
+                            <div class='my-5 text-center'> <span class='candidate_registration_form_section_title rounded-pill fw-bold text-white  bg-secondary p-3'>1st Emergency Contact</span></div>
                             <div class='col-sm-12'>
                                 <label for='primary_emergency_contact_relationship' class='form-label'>Relationship:</label>
                                 <input type='text' class='form-control' id='primary_emergency_contact_relationship' aria-describedby='primary_emergency_contact_relationship' required/>
@@ -209,7 +209,7 @@
                             </div>
                         </div>
                         <div class='row'>
-                            <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>2nd Emergency Contact</span></div>
+                            <div class='my-5 text-center'> <span class='candidate_registration_form_section_title rounded-pill fw-bold text-white  bg-secondary p-3'>2nd Emergency Contact</span></div>
                             <div class='col-sm-12'>
                                 <label for='secondary_emergency_contact_relationship' class='form-label'>Relationship:</label>
                                 <input type='text' class='form-control' id='secondary_emergency_contact_relationship' aria-describedby='secondary_emergency_contact_relationship' required/>
@@ -286,7 +286,7 @@
                 </div>
                 <div id='company_address_map'>  
                     <div class='gmap_canvas m-3'>
-                        <iframe width='350' height='250'
+                        <iframe
                             src='https://maps.google.com/maps?q=219%20Kensington%20High%20Street,%20London,%20W8%206BD&t=&z=13&ie=UTF8&iwloc=&output=embed' 
                             frameborder='0' scrolling='no' marginheight='0' marginwidth='0'>
                             <a href='https://www.embedgooglemap.net'></a>
