@@ -75,6 +75,12 @@
 /*  */
 @media screen and (max-width: 768px) {
     .col_sm_none{
-        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .col_sm_none a{
+        font-size: 2em;
     }
 }
