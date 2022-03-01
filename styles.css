@@ -90,6 +90,14 @@ hr{
         display: none;
     }
 }
+/* .fa fa-hourglass-2 {
+    font-size: 5em
+}
+@media only screen and (max-width: 1200px) {
+    .fa{
+        font-size: 1em;
+    }
+} */
 /* footer */
 footer #copyright_info{
     position: fixed;
