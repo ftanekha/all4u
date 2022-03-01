@@ -112,153 +112,155 @@
             </div>
             <!-- registration -->
             <div id='registration_page' class='container page py-3 bg-light text_blue fw-bolder'>
-                <form method='post' action='' class='bg-light rounded-top ext-white mt-3 p-3'>
-                    <!-- names -->
-                    <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>Personal Information</span></div>
-                    <div class='row'>
-                        <div class='col-sm-12 col-md-2 my-3'>
-                            <label for='candidate_title' class='form-label'>Title:</label>
-                            <input type='text' class='form-control' id='candidate_title' aria-describedby='candidate_title' name='candidate_title' required/>
-                        </div>
-                        <div class='col-sm-12 col-md-5 my-3'>
-                            <label for='candidate_forename' class='form-label'>Forename:</label>
-                            <input type='text' class='form-control' id='candidate_forename' aria-describedby='candidate_forename' name='candidate_forename' required/>
-                        </div>
-                        <div class='col-sm-12 col-md-5 my-3'>
-                            <label for='candidate_surname' class='form-label'>Surname:</label>
-                            <input type='text' class='form-control' id='candidate_surname' aria-describedby='candidate_surname'  name='candidate_surname' required/>
-                        </div>
-                        <div class='col-md-3 my-3'>
-                            <label for='candidate_dob' class='form-label'>Date of birth:</label>
-                            <input type='date' class='form-control' id='candidate_dob' aria-describedby='candidate_date_of_birth' name='candidate_dob' required/>
-                        </div>
-                        <div class='col-md-3 my-3'>
-                            <label for='candidate_gender' class='form-label'>Gender:</label>
-                            <input type='text' class='form-control' id='candidate_gender' aria-describedby='candidate_gender' name='candidate_gender' required/>
-                        </div>
-                        <div class='col-md-6 my-3'>
-                            <label for='candidate_nationality' class='form-label'>Nationality:</label>
-                            <input type='text' class='form-control' id='candidate_nationality' aria-describedby='candidate_nationality' name='candidate_nationality' required/>
-                        </div>
-                    </div>
-                    <div class='my-5 py-5'>
-                        <hr class='bg-dark my-5'/>
-                    </div>
-                    <!-- canditate contact info -->
-                    <div class='row'>
-                        <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>Contact Details</span></div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='candidate_contact_number' class='form-label'>Contact number:</label>
-                            <input type='tel' class='form-control' id='candidate_contact_number' aria-describedby='candidate_contact_number' name='candidate_contact_number' required/>
-                        </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='candidate_email_address' class='form-label'>Email address:</label>
-                            <input type='email' class='form-control' id='candidate_email_address' aria-describedby='candidate_email_address' required/>
-                            <div id='candidate_email_clause' class='form-text text-secondary'>
-                                <sup>We'll never share your email with a third party without your consent!</sup>
+                <div>
+                    <form method='post' action='' class='bg-light rounded-top ext-white mt-3 p-3'>
+                        <!-- names -->
+                        <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>Personal Information</span></div>
+                        <div class='row'>
+                            <div class='col-sm-12 col-md-2 my-3'>
+                                <label for='candidate_title' class='form-label'>Title:</label>
+                                <input type='text' class='form-control' id='candidate_title' aria-describedby='candidate_title' name='candidate_title' required/>
+                            </div>
+                            <div class='col-sm-12 col-md-5 my-3'>
+                                <label for='candidate_forename' class='form-label'>Forename:</label>
+                                <input type='text' class='form-control' id='candidate_forename' aria-describedby='candidate_forename' name='candidate_forename' required/>
+                            </div>
+                            <div class='col-sm-12 col-md-5 my-3'>
+                                <label for='candidate_surname' class='form-label'>Surname:</label>
+                                <input type='text' class='form-control' id='candidate_surname' aria-describedby='candidate_surname'  name='candidate_surname' required/>
+                            </div>
+                            <div class='col-md-3 my-3'>
+                                <label for='candidate_dob' class='form-label'>Date of birth:</label>
+                                <input type='date' class='form-control' id='candidate_dob' aria-describedby='candidate_date_of_birth' name='candidate_dob' required/>
+                            </div>
+                            <div class='col-md-3 my-3'>
+                                <label for='candidate_gender' class='form-label'>Gender:</label>
+                                <input type='text' class='form-control' id='candidate_gender' aria-describedby='candidate_gender' name='candidate_gender' required/>
+                            </div>
+                            <div class='col-md-6 my-3'>
+                                <label for='candidate_nationality' class='form-label'>Nationality:</label>
+                                <input type='text' class='form-control' id='candidate_nationality' aria-describedby='candidate_nationality' name='candidate_nationality' required/>
                             </div>
                         </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='candidate_address' class='form-label'>Address:</label>
-                            <input type='text' class='form-control' id='candidate_address' aria-describedby='candidate_address' required/>
+                        <div class='my-5 py-5'>
+                            <hr class='bg-dark my-5'/>
                         </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='candidate_address_town' class='form-label'>Town:</label>
-                            <input type='text' class='form-control' id='candidate_address_town' aria-describedby='candidate_address_town' required/>
+                        <!-- canditate contact info -->
+                        <div class='row'>
+                            <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>Contact Details</span></div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='candidate_contact_number' class='form-label'>Contact number:</label>
+                                <input type='tel' class='form-control' id='candidate_contact_number' aria-describedby='candidate_contact_number' name='candidate_contact_number' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='candidate_email_address' class='form-label'>Email address:</label>
+                                <input type='email' class='form-control' id='candidate_email_address' aria-describedby='candidate_email_address' required/>
+                                <div id='candidate_email_clause' class='form-text text-secondary'>
+                                    <sup>We'll never share your email with a third party without your consent!</sup>
+                                </div>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='candidate_address' class='form-label'>Address:</label>
+                                <input type='text' class='form-control' id='candidate_address' aria-describedby='candidate_address' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='candidate_address_town' class='form-label'>Town:</label>
+                                <input type='text' class='form-control' id='candidate_address_town' aria-describedby='candidate_address_town' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='candidate_address_county' class='form-label'>County:</label>
+                                <input type='text' class='form-control' id='candidate_address_county' aria-describedby='candidate_address_county' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='candidate_address_p_code' class='form-label'>Post code:</label>
+                                <input type='text' class='form-control' id='candidate_address_p_code' aria-describedby='candidate_address_p_code' required/>
+                            </div>
                         </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='candidate_address_county' class='form-label'>County:</label>
-                            <input type='text' class='form-control' id='candidate_address_county' aria-describedby='candidate_address_county' required/>
+                        <!-- emergency contacts-->
+                        <div class='row'>
+                            <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>1st Emergency Contact</span></div>
+                            <div class='col-sm-12'>
+                                <label for='primary_emergency_contact_relationship' class='form-label'>Relationship:</label>
+                                <input type='text' class='form-control' id='primary_emergency_contact_relationship' aria-describedby='primary_emergency_contact_relationship' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='primary_emergency_contact_surname' class='form-label'>Contact number:</label>
+                                <input type='tel' class='form-control' id='primary_emergency_contact_surname' aria-describedby='primary_emergency_contact_number' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='primary_emergency_contact_email' class='form-label'>Email address:</label>
+                                <input type='email' class='form-control' id='primary_emergency_contact_email' aria-describedby='primary_emergency_contact_email' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='primary_emergency_contact_address' class='form-label'>Address:</label>
+                                <input type='text' class='form-control' id='primary_emergency_contact_address' aria-describedby='primary_emergency_contact_address' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='primary_emergency_contact_town' class='form-label'>Town:</label>
+                                <input type='text' class='form-control' id='primary_emergency_contact_town' aria-describedby='primary_emergency_contact_town' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='primary_emergency_contact_county' class='form-label'>County:</label>
+                                <input type='text' class='form-control' id='primary_emergency_contact_county' aria-describedby='primary_emergency_contact_county' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='primary_emergency_contact_p_code' class='form-label'>Post code:</label>
+                                <input type='text' class='form-control' id='primary_emergency_contact_p_code' aria-describedby='primary_emergency_contact_p_code' required/>
+                            </div>
                         </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='candidate_address_p_code' class='form-label'>Post code:</label>
-                            <input type='text' class='form-control' id='candidate_address_p_code' aria-describedby='candidate_address_p_code' required/>
+                        <div class='row'>
+                            <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>2nd Emergency Contact</span></div>
+                            <div class='col-sm-12'>
+                                <label for='secondary_emergency_contact_relationship' class='form-label'>Relationship:</label>
+                                <input type='text' class='form-control' id='secondary_emergency_contact_relationship' aria-describedby='secondary_emergency_contact_relationship' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='secondary_emergency_contact_surname' class='form-label'>Contact number:</label>
+                                <input type='tel' class='form-control' id='secondary_emergency_contact_surname' aria-describedby='secondary_emergency_contact_number' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='secondary_emergency_contact_email' class='form-label'>Email address:</label>
+                                <input type='email' class='form-control' id='secondary_emergency_contact_email' aria-describedby='secondary_emergency_contact_email' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='secondary_emergency_contact_address' class='form-label'>Address:</label>
+                                <input type='text' class='form-control' id='secondary_emergency_contact_address' aria-describedby='secondary_emergency_contact_address' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='secondary_emergency_contact_town' class='form-label'>Town:</label>
+                                <input type='text' class='form-control' id='secondary_emergency_contact_town' aria-describedby='secondary_emergency_contact_town' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='secondary_emergency_contact_county' class='form-label'>County:</label>
+                                <input type='text' class='form-control' id='secondary_emergency_contact_county' aria-describedby='secondary_emergency_contact_county' required/>
+                            </div>
+                            <div class='col-sm-6 mb-3'>
+                                <label for='secondary_emergency_contact_p_code' class='form-label'>Post code:</label>
+                                <input type='text' class='form-control' id='secondary_emergency_contact_p_code' aria-describedby='secondary_emergency_contact_p_code' required/>
+                            </div>
                         </div>
-                    </div>
-                    <!-- emergency contacts-->
-                    <div class='row'>
-                        <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>1st Emergency Contact</span></div>
-                        <div class='col-sm-12'>
-                            <label for='primary_emergency_contact_relationship' class='form-label'>Relationship:</label>
-                            <input type='text' class='form-control' id='primary_emergency_contact_relationship' aria-describedby='primary_emergency_contact_relationship' required/>
+                        <div class='my-5 py-5'>
+                            <hr class='bg-dark my-5'/>
                         </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='primary_emergency_contact_surname' class='form-label'>Contact number:</label>
-                            <input type='tel' class='form-control' id='primary_emergency_contact_surname' aria-describedby='primary_emergency_contact_number' required/>
+                        <!-- application form supporting documents -->
+                        <div class='col-sm-6 my-3'>
+                            <label for='employment_application_form' class='form-label'>Download <span class='text-secondary'>application form</span></label>
+                            <a href='./applicationForms/employmentApplicationForm.docx' download>
+                                <button type='button' class='btn bg_pink fw-bolder text-white' title='click to download employment application form'>Download</button>
+                            </a>
                         </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='primary_emergency_contact_email' class='form-label'>Email address:</label>
-                            <input type='email' class='form-control' id='primary_emergency_contact_email' aria-describedby='primary_emergency_contact_email' required/>
+                        <div class='col-sm-6 my-5'>
+                            <label for='candidate_resume' class='form-label'>Upload Your Resume</label>
+                            <input class='form-control' type='file' id='candidate_resume' name='candidate_resume' title='optionally, you can send your resume with your registration'>
                         </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='primary_emergency_contact_address' class='form-label'>Address:</label>
-                            <input type='text' class='form-control' id='primary_emergency_contact_address' aria-describedby='primary_emergency_contact_address' required/>
+                        <!-- consent -->
+                        <div class='pt-5 form-check'>
+                            <input type='checkbox' class='form-check-input' id='candidate_consent'>
+                            <label class='form-check-label' for='candidate_consent'>Agree to our <span class='text-secondary'>terms and conditions</span></label>
                         </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='primary_emergency_contact_town' class='form-label'>Town:</label>
-                            <input type='text' class='form-control' id='primary_emergency_contact_town' aria-describedby='primary_emergency_contact_town' required/>
-                        </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='primary_emergency_contact_county' class='form-label'>County:</label>
-                            <input type='text' class='form-control' id='primary_emergency_contact_county' aria-describedby='primary_emergency_contact_county' required/>
-                        </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='primary_emergency_contact_p_code' class='form-label'>Post code:</label>
-                            <input type='text' class='form-control' id='primary_emergency_contact_p_code' aria-describedby='primary_emergency_contact_p_code' required/>
-                        </div>
-                    </div>
-                    <div class='row'>
-                        <div class='my-5 text-center'> <span class='rounded-pill fw-bold text-white lead bg-secondary p-3'>2nd Emergency Contact</span></div>
-                        <div class='col-sm-12'>
-                            <label for='secondary_emergency_contact_relationship' class='form-label'>Relationship:</label>
-                            <input type='text' class='form-control' id='secondary_emergency_contact_relationship' aria-describedby='secondary_emergency_contact_relationship' required/>
-                        </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='secondary_emergency_contact_surname' class='form-label'>Contact number:</label>
-                            <input type='tel' class='form-control' id='secondary_emergency_contact_surname' aria-describedby='secondary_emergency_contact_number' required/>
-                        </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='secondary_emergency_contact_email' class='form-label'>Email address:</label>
-                            <input type='email' class='form-control' id='secondary_emergency_contact_email' aria-describedby='secondary_emergency_contact_email' required/>
-                        </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='secondary_emergency_contact_address' class='form-label'>Address:</label>
-                            <input type='text' class='form-control' id='secondary_emergency_contact_address' aria-describedby='secondary_emergency_contact_address' required/>
-                        </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='secondary_emergency_contact_town' class='form-label'>Town:</label>
-                            <input type='text' class='form-control' id='secondary_emergency_contact_town' aria-describedby='secondary_emergency_contact_town' required/>
-                        </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='secondary_emergency_contact_county' class='form-label'>County:</label>
-                            <input type='text' class='form-control' id='secondary_emergency_contact_county' aria-describedby='secondary_emergency_contact_county' required/>
-                        </div>
-                        <div class='col-sm-6 mb-3'>
-                            <label for='secondary_emergency_contact_p_code' class='form-label'>Post code:</label>
-                            <input type='text' class='form-control' id='secondary_emergency_contact_p_code' aria-describedby='secondary_emergency_contact_p_code' required/>
-                        </div>
-                    </div>
-                    <div class='my-5 py-5'>
-                        <hr class='bg-dark my-5'/>
-                    </div>
-                    <!-- application form supporting documents -->
-                    <div class='col-sm-6 my-3'>
-                        <label for='employment_application_form' class='form-label'>Download <span class='text-secondary'>application form</span></label>
-                        <a href='./applicationForms/employmentApplicationForm.docx' download>
-                            <button type='button' class='btn bg_pink fw-bolder text-white' title='click to download employment application form'>Download</button>
-                        </a>
-                    </div>
-                    <div class='col-sm-6 my-5'>
-                        <label for='candidate_resume' class='form-label'>Upload Your Resume</label>
-                        <input class='form-control' type='file' id='candidate_resume' name='candidate_resume' title='optionally, you can send your resume with your registration'>
-                    </div>
-                    <!-- consent -->
-                    <div class='pt-5 form-check'>
-                        <input type='checkbox' class='form-check-input' id='candidate_consent'>
-                        <label class='form-check-label' for='candidate_consent'>Agree to our <span class='text-secondary'>terms and conditions</span></label>
-                    </div>
-                    <button type='submit' class='btn btn-primary my-5'>Submit</button>
-                </form>
+                        <button type='submit' class='btn btn-primary my-5'>Submit</button>
+                    </form>
+                </div>
             </div>
             <!-- jobs -->
             <div id='jobs_page' class='container page bg-dark text-white fw-bolder'>jobs</div>
