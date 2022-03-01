@@ -64,7 +64,7 @@ body{
     margin: auto;
 }
 /* registration page */
-#candidate_registration_form{
+#candidate_registration_form_container{
     width: 70%;
     margin: auto;
 }

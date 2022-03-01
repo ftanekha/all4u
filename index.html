@@ -13,7 +13,7 @@
     />
     <link rel='stylesheet' href='./styles.css'/>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
-    <link rel='stylesheet' href='./social_media.css'>
+    <link rel='stylesheet' href='./socialMedia.css'>
     <script 
         src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' 
         integrity='sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM' 
@@ -50,6 +50,7 @@
     </script>
     <script src='./navbar.js' defer></script>
     <script src='./navbarControl.js' defer></script>
+    <script src='./formControl.js' defer></script>
     <title>All4U Healthcare Solutions</title>
 </head>
 <body>
@@ -112,8 +113,8 @@
             </div>
             <!-- registration -->
             <div id='registration_page' class='container page py-3 bg-light text_blue fw-bolder'>
-                <div id='candidate_registration_form'>
-                    <form method='post' action='' class='bg-light rounded-top ext-white mt-3 p-3'>
+                <div id='candidate_registration_form_container'>
+                    <form id='candidate_registration_form' method='post' action='' class='bg-light rounded-top ext-white mt-3 p-3'>
                         <!-- names -->
                         <div class='my-5 text-center'> <span class='candidate_registration_form_section_title rounded-pill fw-bold text-white bg-secondary p-3'>Personal Information</span></div>
                         <div class='row'>
