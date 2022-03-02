@@ -108,10 +108,3 @@ const generalJobs= {
 }
 
 document.querySelector('#general_jobs').innerHTML = templateForJobs(generalJobs)
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-const jobTitles = []
-
-for(let job of generalJobs.jobs) jobTitles.push(job.title)
-
-module.exports = jobTitles

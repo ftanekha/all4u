@@ -98,6 +98,20 @@ hr{
 .strong{
     text-shadow: #FF008C .03em -.01em;
 }
+#jobs_leading_statement{
+    position: relative;
+}
+.info{
+    position: relative;
+    left: 2.5em;
+    text-shadow: #FFFF00 0.1em 0.025em;
+}
+.general_jobs_description{
+    list-style-type: disc;
+}
+.hide{
+    display: none;
+}
 /* contact page */
 #contact_page{
     position: relative;

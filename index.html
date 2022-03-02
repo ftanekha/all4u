@@ -52,7 +52,7 @@
         <ul class='list-unstyled'>
             {{#each jobs}}  
             <li id={{this.title}} class='text-capitalize fw-bolder my-5 ms-4'>
-                <h6 class='mb-1'>{{this.title}} 
+                <h6 class='general_jobs_title mb-1'>{{this.title}} 
                     {{#if this.abbr}}
                         <span class='job_abbreviation'>
                             ( <span class='fw-bolder text-uppercase'>{{this.abbr}}</span> )
@@ -63,10 +63,10 @@
                         </span>
                     {{/if}}
                 </h6>
-                <ul class='list-unstyled'>
+                <ul class='general_jobs_description hide'>
                     {{#with this}}
                         {{#each duties}}
-                        <li class='general_jobs text-lowercase fw-normal'><span class='fw-bolder'> - </span>{{this}}</li>
+                        <li class='text-lowercase fw-normal'>{{this}}</li>
                         {{/each}}
                     {{/with}}
                 </ul>
@@ -78,6 +78,7 @@
     <script src='./navbarControl.js' defer></script>
     <script src='./main.js' defer></script>
     <script src='./generalJobs.js' defer></script>
+    <script src='./jobDescriptions.js' defer></script>
     <title>All4U Healthcare Solutions</title>
 </head>
 <body>
@@ -300,6 +301,7 @@
                         </p>
                         <p class='pb-3' fw-normal>Below is a brief <span class='text-dark fw-bolder'>non-exhaustive</span> list of some of the roles we facilitate, including some of the duties entailed:
                         </p>
+                        <p class='text-secondary info'>CLICK job title to see job description</p>
                         <div id='general_jobs'>
                         </div>
                     </div>
