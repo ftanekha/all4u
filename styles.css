@@ -81,6 +81,11 @@ body{
         font-size: .8em;
     }
 }
+@media only screen and (max-width: 430px) {
+    .candidate_registration_form_section_title_long{
+        font-size: .7em;
+    }
+}
 hr{
     border: 1.5px solid #FF008C;
 }
