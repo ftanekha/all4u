@@ -51,8 +51,8 @@
     <script id='general_jobs_template' type='text/x-handlebars-template' defer>
         <ul class='list-unstyled'>
             {{#each jobs}}  
-            <li class='text-capitalize fw-bolder my-5 ms-4'>
-                <h6 id={{this.title}} class='mb-1'>{{this.title}} 
+            <li id={{this.title}} class='text-capitalize fw-bolder my-5 ms-4'>
+                <h6 class='mb-1'>{{this.title}} 
                     {{#if this.abbr}}
                         <span class='job_abbreviation'>
                             ( <span class='fw-bolder text-uppercase'>{{this.abbr}}</span> )
@@ -66,7 +66,7 @@
                 <ul class='list-unstyled'>
                     {{#with this}}
                         {{#each duties}}
-                        <li class='general_jobs text-lowercase fw-normal'> -{{this}}</li>
+                        <li class='general_jobs text-lowercase fw-normal'><span class='fw-bolder'> - </span>{{this}}</li>
                         {{/each}}
                     {{/with}}
                 </ul>
@@ -294,10 +294,11 @@
             <div id='jobs_page' class='container page bg-light pb-5 text_blue fw-bolder'>
                 <div id='jobs_container' class='mt-3 ms-4'>
                     <div id='jobs_leading_statement'>
-                        <p class='pt-5 pb-3'>In accordance with our<a class='mission_statement_links text-decoration-none' href='#mission_statement'> mission</a>, <span class='text_pink'>All4</span>U<span class='text-dark'> Healthcare Solutions</span> provides various
+                        <p class='pt-5 pb-3'>In accordance with our<a class='mission_statement_links text-decoration-none' href='#mission_statement'> 
+                            <i class='fw-normal text-dark'>mission</i></a>, <span class='text_pink'>All4</span>U<span class='text-dark'> Healthcare Solutions</span> provides various
                             healthcare employment roles in line with the current healthcare opportunities and requirements.
                         </p>
-                        <p class='pb-3'>Below is a brief non-exhaustive list of some of the roles we facilitate, including some of the duties entailed:
+                        <p class='pb-3' fw-normal>Below is a brief <span class='text-dark fw-bolder'>non-exhaustive</span> list of some of the roles we facilitate, including some of the duties entailed:
                         </p>
                         <div id='general_jobs'>
                         </div>

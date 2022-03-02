@@ -95,6 +95,9 @@ hr{
         display: none;
     }
 }
+.strong{
+    text-shadow: #FF008C .03em -.01em;
+}
 /* contact page */
 #contact_page{
     position: relative;
