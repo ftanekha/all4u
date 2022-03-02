@@ -89,6 +89,12 @@ body{
 hr{
     border: 1.5px solid #FF008C;
 }
+/* jobs */
+@media only screen and (max-width: 500px) {
+    .job_abbreviation{
+        display: none;
+    }
+}
 /* contact page */
 #contact_page{
     position: relative;

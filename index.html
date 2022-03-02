@@ -54,15 +54,19 @@
             <li class='text-capitalize fw-bolder my-5 ms-4'>
                 <h6 id={{this.title}} class='mb-1'>{{this.title}} 
                     {{#if this.abbr}}
-                        ( <span class='fw-bolder text-uppercase'>{{this.abbr}}</span> )
+                        <span class='job_abbreviation'>
+                            ( <span class='fw-bolder text-uppercase'>{{this.abbr}}</span> )
+                        </span> 
                         {{else}}
-                        ( <span class='fw-bolder text-uppercase'>*</span> )
+                        <span class='job_abbreviation'>
+                            ( <span class='fw-bolder text-uppercase'>*</span> )
+                        </span>
                     {{/if}}
                 </h6>
                 <ul class='list-unstyled'>
                     {{#with this}}
                         {{#each duties}}
-                        <li class='text-lowercase fw-normal'> -{{this}}</li>
+                        <li class='general_jobs text-lowercase fw-normal'> -{{this}}</li>
                         {{/each}}
                     {{/with}}
                 </ul>
