@@ -15,14 +15,14 @@ const generalJobs= {
                 'delegate work to all care staff and monitor the care given to patients',
                 'help induct, train and supervise colleagues and junior members of staff in all aspects of their work',
                 'provide and maintain the standard of care to our patients as required by NMC code of professional conduct',
-                'similar additinal duites as RMN below'
+                'similar additinal duites as (RMN) below'
             ]
         },
         {
             title: 'registered mental nurse',
             abbr: 'rmn',  
             duties: [
-                'additional to RGN duties:',
+                'additional to (RGN) duties:',
                 'ensure the highest possible standards of care are maintained through your own efforts and those that have been delegated to care for patients',
                 'ensure that all aspects of their care needs, i.e. physical, emotional, spiritual and social are met',
                 'keep all records of care given in the patients care plan after each shift',
@@ -102,7 +102,7 @@ const generalJobs= {
         {
             title: 'case support worker',
             abbr: 'csw',  
-            duties: ['similar to HCA']
+            duties: ['similar to (HCA)']
         }
     ]
 }
