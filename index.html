@@ -51,8 +51,8 @@
     <script id='general_jobs_template' type='text/x-handlebars-template' defer>
         <ul class='list-unstyled'>
             {{#each jobs}}  
-            <li id={{this.title}} class='text-capitalize fw-bolder my-5 ms-4'>
-                <h6 class='general_jobs_title mb-1'>{{this.title}} 
+            <li id={{this.title}} class='fw-bolder my-5 ms-4'>
+                <h6 class='general_jobs_title mb-1 text-capitalize'>{{this.title}} 
                     {{#if this.abbr}}
                         <span class='job_abbreviation'>
                             ( <span class='fw-bolder text-uppercase'>{{this.abbr}}</span> )
@@ -66,7 +66,7 @@
                 <ul class='general_jobs_description hide'>
                     {{#with this}}
                         {{#each duties}}
-                        <li class='text-lowercase fw-normal'>{{this}}</li>
+                        <li class='fw-normal'>{{this}}</li>
                         {{/each}}
                     {{/with}}
                 </ul>
