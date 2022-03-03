@@ -95,9 +95,6 @@ hr{
         display: none;
     }
 }
-.strong{
-    text-shadow: #FF008C .03em -.01em;
-}
 #jobs_leading_statement{
     position: relative;
 }
