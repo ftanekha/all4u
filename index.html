@@ -274,8 +274,8 @@
                         <!-- application form supporting documents -->
                         <div class='col-sm-6 my-3'>
                             <label for='employment_application_form' class='form-label'>Download <span class='text-secondary'>application form</span></label>
-                            <a href='./applicationForms/employmentApplicationForm.docx' download>
-                                <button type='button' class='btn bg_pink fw-bolder text-white' title='click to download employment application form'>Download</button>
+                            <a href='#' download>
+                                <input id='employment_application_form_download_button' type='button' value='Download' class='btn bg_pink fw-bolder text-white' title='click to download employment application form' disabled/>
                             </a>
                         </div>
                         <div class='col-sm-6 my-5'>
@@ -284,7 +284,7 @@
                         </div>
                         <!-- consent -->
                         <div class='pt-5 form-check'>
-                            <input type='checkbox' class='form-check-input' id='candidate_consent'>
+                            <input type='checkbox' class='form-check-input' id='candidate_consent' disabled/>
                             <label class='form-check-label' for='candidate_consent'>Agree to our <span class='text-secondary'>terms and conditions</span></label>
                         </div>
                         <button type='submit' class='btn btn-primary my-5'>Submit</button>

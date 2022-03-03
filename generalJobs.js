@@ -15,7 +15,7 @@ const generalJobs= {
                 'delegate work to all care staff and monitor the care given to patients',
                 'help induct, train and supervise colleagues and junior members of staff in all aspects of their work',
                 'provide and maintain the standard of care to our patients as required by NMC code of professional conduct',
-                'similar additinal duites as (RMN) below'
+                'similar additional duites as (RMN) below'
             ]
         },
         {
