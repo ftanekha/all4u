@@ -13,3 +13,13 @@ for(let jobTitleIndex = 0; jobTitleIndex < generalJobsTitle.length; jobTitleInde
         description.classList.add('hide')
     })
 }
+
+for(let jobTitleIndex = 0; jobTitleIndex < generalJobsTitle.length; jobTitleIndex++){
+    generalJobsTitle[jobTitleIndex].addEventListener('mouseover', ()=>{
+        const description = generalJobsDescription[jobTitleIndex]
+        //hide & show job descritions accordingly
+        description.classList.contains('hide') ?
+        description.classList.remove('hide'):
+        description.classList.add('hide')
+    })
+}
