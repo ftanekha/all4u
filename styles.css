@@ -98,11 +98,6 @@ hr{
 #jobs_leading_statement{
     position: relative;
 }
-.info{
-    position: relative;
-    left: 1.7em;
-    text-shadow: #FFFF00 0.1em 0.025em;
-}
 .general_jobs_description{
     list-style-type: disc;
 }
