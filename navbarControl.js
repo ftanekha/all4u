@@ -5,6 +5,11 @@ logo = document.querySelector('#company_logo')
 
 for(let link of links) link.addEventListener(
     'click', ()=> {
+        //highlight only clicked link i.e. currently visible page
+        links.forEach(link => {
+            if(link.classList.contains('bg_nav_pink')) link.classList.remove('bg_nav_pink') 
+        })
+        link.classList.add('bg_nav_pink')
         //initially, hide all pages
         for (let page of pages) page.style.display = 'none'
         //hide copyright info on registration page
