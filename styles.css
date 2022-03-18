@@ -18,7 +18,7 @@
     color: #093867;
 }
 /* customer components */
-.four{
+/* .four{
     height: .8em;
     position: relative;
     bottom: 2px;
@@ -26,7 +26,7 @@
 #welcome_message, .pt-3, .display-5, 
 #company_description,.my-5{
     position: relative;
-}
+} */
 /*  */
 body{
     font-family: 'Rubik', sans-serif;
