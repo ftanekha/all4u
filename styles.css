@@ -17,16 +17,6 @@
 .text_blue{
     color: #093867;
 }
-/* customer components */
-/* .four{
-    height: .8em;
-    position: relative;
-    bottom: 2px;
-}
-#welcome_message, .pt-3, .display-5, 
-#company_description,.my-5{
-    position: relative;
-} */
 /*  */
 body{
     font-family: 'Rubik', sans-serif;
@@ -81,6 +71,12 @@ body{
 #company_description{
     width: 60%;
     margin: auto;
+}
+.landing_4{
+    margin: -.25em;
+    height: .8em;
+    position: relative;
+    bottom: .1em;
 }
 /* registration page */
 #candidate_registration_form_container{
