@@ -185,12 +185,37 @@
                     </div>
                 </div>
             </div>
+            <!-- jobs -->
+            <div id='jobs_page' class='container page bg-light pb-5 text_blue'>
+                <div id='jobs_container' class='mt-3 ms-4'>
+                    <div id='jobs_leading_statement'>
+                        <p class='pt-5 pb-3'>In accordance with our<a class='mission_statement_links text-decoration-none' href='#mission_statement'> 
+                            <i class='fw-normal text-dark'>mission</i></a>, 
+                            <span class='text_pink fw-bolder' style='position: relative'>
+                                All
+                                <img src='./images/4.jpg' alt='' class='landing_4'/>
+                            </span>U
+                            <span class='text-dark fw-bolder'> Healthcare Solutions</span> 
+                            provides various healthcare employment roles in line with the current healthcare opportunities and requirements.
+                        </p>
+                        <p class='pb-3' fw-normal>Below is a brief 
+                            <span class='text-dark'>non-exhaustive</span> 
+                            list of some of the roles we facilitate, including some of the duties entailed:
+                        </p>
+                        <div id='general_jobs'>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- registration -->
             <div id='registration_page' class='container page py-3 bg-light text_blue fw-bolder'>
                 <div id='candidate_registration_form_container'>
+                    <div class='mt-5 pt-3'>
+                        <p class='fw-normal'>To registered your interest, fill out the short form below. A member of our team will be in touch with your shortly.</p>
+                    </div>
                     <form id='candidate_registration_form' method='post' action='' class='bg-light rounded-top ext-white mt-3 p-3'>
                         <!-- names -->
-                        <div class='my-5 text-center'> <span class='candidate_registration_form_section_title rounded-pill fw-bold text-white bg-secondary p-3'>Personal Information</span></div>
+                        <div class='my-5 text-center'> <span class='candidate_registration_form_section_title fw-bold text-white bg-secondary p-3'>Personal Information</span></div>
                         <div class='row'>
                             <div class='col-sm-12 col-md-2 my-3'>
                                 <label for='candidate_title' class='form-label'>Title:</label>
@@ -217,17 +242,14 @@
                                 <input type='text' class='form-control' id='candidate_nationality' aria-describedby='candidate_nationality' name='candidate_nationality' required/>
                             </div>
                         </div>
-                        <div class='my-5 py-5'>
-                            <hr class='bg-dark my-5'/>
-                        </div>
                         <!-- canditate contact info -->
-                        <div class='row'>
-                            <div class='my-5 text-center'> <span class='candidate_registration_form_section_title rounded-pill fw-bold text-white  bg-secondary p-3'>Contact Details</span></div>
-                            <div class='col-sm-6 mb-3'>
+                        <div class='row pt-4'>
+                            <div class='my-5 text-center'> <span class='candidate_registration_form_section_title fw-bold text-white  bg-secondary p-3'>Contact Details</span></div>
+                            <div class='col-sm-6 mb-3 pt-3'>
                                 <label for='candidate_contact_number' class='form-label'>Contact number:</label>
                                 <input type='tel' class='form-control' id='candidate_contact_number' aria-describedby='candidate_contact_number' name='candidate_contact_number' required/>
                             </div>
-                            <div class='col-sm-6 mb-3'>
+                            <div class='col-sm-6 mb-3 pt-3'>
                                 <label for='candidate_email_address' class='form-label'>Email address:</label>
                                 <input type='email' class='form-control' id='candidate_email_address' aria-describedby='candidate_email_address' required/>
                                 <div id='candidate_email_clause' class='form-text text-secondary'>
@@ -251,81 +273,26 @@
                                 <input type='text' class='form-control' id='candidate_address_p_code' aria-describedby='candidate_address_p_code' required/>
                             </div>
                         </div>
-                        <!-- emergency contacts-->
-                        <div class='row'>
-                            <div class='my-5 text-center'> <span class='candidate_registration_form_section_title candidate_registration_form_section_title_long rounded-pill fw-bold text-white  bg-secondary p-3'>1st Emergency Contact</span></div>
-                            <div class='col-sm-12'>
-                                <label for='primary_emergency_contact_relationship' class='form-label'>Relationship:</label>
-                                <input type='text' class='form-control' id='primary_emergency_contact_relationship' aria-describedby='primary_emergency_contact_relationship' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='primary_emergency_contact_surname' class='form-label'>Contact number:</label>
-                                <input type='tel' class='form-control' id='primary_emergency_contact_surname' aria-describedby='primary_emergency_contact_number' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='primary_emergency_contact_email' class='form-label'>Email address:</label>
-                                <input type='email' class='form-control' id='primary_emergency_contact_email' aria-describedby='primary_emergency_contact_email' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='primary_emergency_contact_address' class='form-label'>Address:</label>
-                                <input type='text' class='form-control' id='primary_emergency_contact_address' aria-describedby='primary_emergency_contact_address' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='primary_emergency_contact_town' class='form-label'>Town:</label>
-                                <input type='text' class='form-control' id='primary_emergency_contact_town' aria-describedby='primary_emergency_contact_town' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='primary_emergency_contact_county' class='form-label'>County:</label>
-                                <input type='text' class='form-control' id='primary_emergency_contact_county' aria-describedby='primary_emergency_contact_county' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='primary_emergency_contact_p_code' class='form-label'>Post code:</label>
-                                <input type='text' class='form-control' id='primary_emergency_contact_p_code' aria-describedby='primary_emergency_contact_p_code' required/>
-                            </div>
-                        </div>
-                        <div class='row'>
-                            <div class='my-5 text-center'> <span class='candidate_registration_form_section_title candidate_registration_form_section_title_long rounded-pill fw-bold text-white  bg-secondary p-3'>2nd Emergency Contact</span></div>
-                            <div class='col-sm-12'>
-                                <label for='secondary_emergency_contact_relationship' class='form-label'>Relationship:</label>
-                                <input type='text' class='form-control' id='secondary_emergency_contact_relationship' aria-describedby='secondary_emergency_contact_relationship' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='secondary_emergency_contact_surname' class='form-label'>Contact number:</label>
-                                <input type='tel' class='form-control' id='secondary_emergency_contact_surname' aria-describedby='secondary_emergency_contact_number' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='secondary_emergency_contact_email' class='form-label'>Email address:</label>
-                                <input type='email' class='form-control' id='secondary_emergency_contact_email' aria-describedby='secondary_emergency_contact_email' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='secondary_emergency_contact_address' class='form-label'>Address:</label>
-                                <input type='text' class='form-control' id='secondary_emergency_contact_address' aria-describedby='secondary_emergency_contact_address' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='secondary_emergency_contact_town' class='form-label'>Town:</label>
-                                <input type='text' class='form-control' id='secondary_emergency_contact_town' aria-describedby='secondary_emergency_contact_town' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='secondary_emergency_contact_county' class='form-label'>County:</label>
-                                <input type='text' class='form-control' id='secondary_emergency_contact_county' aria-describedby='secondary_emergency_contact_county' required/>
-                            </div>
-                            <div class='col-sm-6 mb-3'>
-                                <label for='secondary_emergency_contact_p_code' class='form-label'>Post code:</label>
-                                <input type='text' class='form-control' id='secondary_emergency_contact_p_code' aria-describedby='secondary_emergency_contact_p_code' required/>
-                            </div>
-                        </div>
-                        <div class='my-5 py-5'>
-                            <hr class='bg-dark my-5'/>
-                        </div>
                         <!-- application form supporting documents -->
-                        <div class='col-sm-6 my-3'>
-                            <label for='employment_application_form' class='form-label'>Download <span class='text-secondary'>application form</span></label>
+                        <div class='mt-3 pt-3 fw-normal'>
+                            <p'>For the Complete Employment Registration Application form:</p>
+                            <ul>
+                                <li>download & fill out the complete Candidate Emploment Registration form below,</li>
+                                <li>upload the filled-out form with any supporting documents</li>
+                            </ul>
+                        </div>
+                        <div class='col-sm-6 mt-5 pt-3'>
+                            <label for='employment_application_form' class='form-label'>Download <span class='fw-normal'>application form</span></label>
                             <a href='./applicationForms/All4UCandidateAcquisitionFormv1.0.docx' target='_blank'>
                                 <input id='employment_application_form_download_button' type='button' value='Download' class='btn bg_pink fw-bolder text-white' title='click to download employment application form' disabled/>
                             </a>
                         </div>
-                        <div class='col-sm-6 my-5'>
-                            <label for='candidate_resume' class='form-label'>Upload Your Resume</label>
+                        <div class='col-sm-6 my-5 pt-3'>
+                            <label for='completed_employment_application_form class='form-label'>Upload <span class='fw-normal'>completed registration form</span></label>
+                            <input class='form-control' type='file' id='completed_employment_application_form' name='completed_employment_application_form' title='optionally, you can send your resume with your registration'>
+                        </div>
+                        <div class='col-sm-6 my-5 pt-3'>
+                            <label for='candidate_resume' class='form-label'>Upload <span class='fw-normal'>supporting documents</span><span class='text-secondary'> e.g. CV</span></label>
                             <input class='form-control' type='file' id='candidate_resume' name='candidate_resume' title='optionally, you can send your resume with your registration'>
                         </div>
                         <!-- consent -->
@@ -348,29 +315,6 @@
                         <button type='submit' class='btn btn-primary my-5'>Submit</button>
                     </form>
                 </div>
-            </div>
-            <!-- jobs -->
-            <div id='jobs_page' class='container page bg-light pb-5 text_blue'>
-                <div id='jobs_container' class='mt-3 ms-4'>
-                    <div id='jobs_leading_statement'>
-                        <p class='pt-5 pb-3'>In accordance with our<a class='mission_statement_links text-decoration-none' href='#mission_statement'> 
-                            <i class='fw-normal text-dark'>mission</i></a>, 
-                            <span class='text_pink fw-bolder' style='position: relative'>
-                                All
-                                <img src='./images/4.jpg' alt='' class='landing_4'/>
-                            </span>U
-                            <span class='text-dark fw-bolder'> Healthcare Solutions</span> 
-                            provides various healthcare employment roles in line with the current healthcare opportunities and requirements.
-                        </p>
-                        <p class='pb-3' fw-normal>Below is a brief 
-                            <span class='text-dark'>non-exhaustive</span> 
-                            list of some of the roles we facilitate, including some of the duties entailed:
-                        </p>
-                        <div id='general_jobs'>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
             <!-- contact -->
             <div id='contact_page' class='page bg-light text-white mt-3 pb-5'>
