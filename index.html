@@ -101,6 +101,7 @@
     <script src='./main.js' defer></script>
     <script src='./generalJobs.js' defer></script>
     <script src='./jobDescriptions.js' defer></script>
+    <script src='./registrationFormSubmit.js' defer></script>
     <title>All4 Healthcare Solutions</title>
 </head>
 <body>
@@ -282,17 +283,17 @@
                             </ul>
                         </div>
                         <div class='col-sm-6 mt-5 pt-3'>
-                            <label for='employment_application_form' class='form-label'>Download the <span class='fw-normal'>application form</span></label>
+                            <label for='employment_application_form' class='form-label'>Download <span class='fw-normal'>the application form</span></label>
                             <a href='./applicationForms/All4UCandidateAcquisitionFormv1.0.docx' target='_blank'>
                                 <input id='employment_application_form_download_button' type='button' value='Download' class='btn bg_pink fw-bolder text-white' title='click to download employment application form' disabled/>
                             </a>
                         </div>
                         <div class='col-sm-6 my-5 pt-3'>
-                            <label for='completed_employment_application_form class='form-label'>Upload the <span class='fw-normal'>completed registration form</span></label>
+                            <label for='completed_employment_application_form class='form-label'>Upload <span class='fw-normal'>the completed registration form</span></label>
                             <input class='form-control' type='file' id='completed_employment_application_form' name='completed_employment_application_form' title='optionally, you can send your resume with your registration'>
                         </div>
                         <div class='col-sm-6 my-5 pt-3'>
-                            <label for='candidate_resume' class='form-label'>Upload the <span class='fw-normal'>supporting documents</span><span class='text-secondary'> e.g. CV</span></label>
+                            <label for='candidate_resume' class='form-label'>Upload <span class='fw-normal'>the supporting documents</span><span class='text-secondary'> e.g. CV</span></label>
                             <input class='form-control' type='file' id='candidate_resume' name='candidate_resume' title='optionally, you can send your resume with your registration'>
                         </div>
                         <!-- consent -->
@@ -312,9 +313,37 @@
                                 </span>
                             </label>
                         </div>
-                        <button type='submit' class='btn btn-primary my-5'>Submit</button>
+                        <button id='candidate_registration_form_submit_button' type='submit' class='btn btn-primary my-5'>Submit</button>
                     </form>
                 </div>
+            </div>
+            <!-- registration confirmation message -->
+            <div id='registration_confirmation_loading' class='mt-3 pt-3 fw-normal'>
+                <div class='spinner-grow text-primary' role='status'>
+                    <span class='sr-only'>Loading...</span>
+                </div>
+                <div class='spinner-grow text-secondary' role='status'>
+                    <span class='sr-only'>Loading...</span>
+                </div>
+                <div class='spinner-grow text-success' role='status'>
+                    <span class='sr-only'>Loading...</span>
+                </div>
+                <div class='spinner-grow text-danger' role='status'>
+                    <span class='sr-only'>Loading...</span>
+                </div>
+                <div class='spinner-grow text-warning' role='status'>
+                    <span class='sr-only'>Loading...</span>
+                </div>
+                <div class='spinner-grow text-info' role='status'>
+                    <span class='sr-only'>Loading...</span>
+                </div>
+                <div class='spinner-grow text-dark' role='status'>
+                    <span class='sr-only'>Loading...</span>
+                </div>
+                &nbsp &nbsp <span class='text-secondary'>connecting to database...</span>
+            </div>
+            <div id='registration_confirmation_message' class='mt-3 pt-3 fw-normal'>
+                <p>Your application has been registered. A member of our team will be in touch with you shortly. Thank you</p>
             </div>
             <!-- contact -->
             <div id='contact_page' class='page bg-light text-white mt-3 pb-5'>

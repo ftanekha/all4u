@@ -83,6 +83,9 @@ body{
     width: 70%;
     margin: auto;
 }
+#registration_confirmation_loading, #registration_confirmation_message{
+    display: none;
+}
 @media only screen and (max-width: 2000px) {
     .nav_item a{
         font-size: large;
