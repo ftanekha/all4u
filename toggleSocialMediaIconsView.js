@@ -1,7 +1,7 @@
 'use strict'
 
 const 
-calculatedSocialMediaIconsBoundingClientRect = 895, //from document.querySelectorAll('.social-icon').forEach(el => console.log(el.getBoundingClientRect().top))
+calculatedSocialMediaIconsBoundingClientRect = 900, //from document.querySelectorAll('.social-icon').forEach(el => console.log(el.getBoundingClientRect().top))
 mostBottomElements = document.querySelectorAll('.most_bottom_els'),
 socialMediaIcons =  document.querySelector('#social_media_icons')
 
