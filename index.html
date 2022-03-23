@@ -102,6 +102,7 @@
     <script src='./generalJobs.js' defer></script>
     <script src='./jobDescriptions.js' defer></script>
     <script src='./registrationFormSubmit.js' defer></script>
+    <script src='./toggleSocialMediaIconsView.js' defer></script>
     <title>All4 Healthcare Solutions</title>
 </head>
 <body>
@@ -137,7 +138,7 @@
                     </div>
                     <div id='misson' class='mt-5 pt-3 text-center'>
                         <p class='display-5 text_pink'>OUR MISSION</p>
-                        <div class='pt-3 mb-5'>
+                        <div class='pt-3 mb-5 most_bottom_els'>
                             Our mission is to be the medical staffing agency of choice for all major UK healthcare providers.<br/>
                             Our commitment is to meet the highest standard of safety, ethics and governance in meeting the needs of candidates, clients and staff alike.
                         </div>
@@ -175,7 +176,7 @@
                                     <img src='./images/4.jpg' alt='' class='landing_4'/>
                                 </span>
                                 U<span class='text-dark fw-bolder'> Healthcare Solutions</span> operates <br/>
-                                <div class=''>
+                                <div class='most_bottom_els'>
                                     <span class='fw-bolder display-6'>
                                         <span class='text_pink'>24</span> hours a day, 
                                         <span class='text_pink'>365</span> days a year.
@@ -203,7 +204,7 @@
                             <span class='text-dark'>non-exhaustive</span> 
                             list of some of the roles we facilitate, including some of the duties entailed:
                         </p>
-                        <div id='general_jobs'>
+                        <div id='general_jobs' class='most_bottom_els'>
                         </div>
                     </div>
                 </div>
@@ -244,7 +245,7 @@
                             </div>
                         </div>
                         <!-- canditate contact info -->
-                        <div class='row pt-4'>
+                        <div class='row py-5'>
                             <div class='my-5 text-center'> <span class='candidate_registration_form_section_title fw-bold text-white  bg-secondary p-3'>Contact Details</span></div>
                             <div class='col-sm-6 mb-3 pt-3'>
                                 <label for='candidate_contact_number' class='form-label'>Contact number:</label>
@@ -274,8 +275,9 @@
                                 <input type='text' class='form-control' id='candidate_address_p_code' aria-describedby='candidate_address_p_code' required/>
                             </div>
                         </div>
+                        <hr class='my-5'/>
                         <!-- application form supporting documents -->
-                        <div class='mt-3 pt-3 fw-normal'>
+                        <div class='mt-3 pt-5 fw-normal'>
                             <p'>For the Complete Employment Registration Application form:</p>
                             <ul>
                                 <li>download & fill out the complete Candidate Emploment Registration form below,</li>
@@ -292,28 +294,33 @@
                             <label for='completed_employment_application_form class='form-label'>Upload <span class='fw-normal'>the completed registration form</span></label>
                             <input class='form-control' type='file' id='completed_employment_application_form' name='completed_employment_application_form' title='optionally, you can send your resume with your registration'>
                         </div>
-                        <div class='col-sm-6 my-5 pt-3'>
+                        <div class='col-sm-6 my-5 pt-3 pb-5'>
                             <label for='candidate_resume' class='form-label'>Upload <span class='fw-normal'>the supporting documents</span><span class='text-secondary'> e.g. CV</span></label>
                             <input class='form-control' type='file' id='candidate_resume' name='candidate_resume' title='optionally, you can send your resume with your registration'>
                         </div>
+                        <hr class='my-5'/>
                         <!-- consent -->
                         <div class='pt-5 form-check'>
                             <input type='checkbox' class='form-check-input' id='candidate_terms_and_conditions_consent'/>
-                            <label class='form-check-label' for='candidate_terms_and_conditions_consent'>Agree to our 
-                                <span class='text-secondary'>
-                                    <a href='./termsAndConditions.html' target='_blank'>terms and conditions of website use</a>
+                            <label class='form-check-label' for='candidate_terms_and_conditions_consent'>Agree 
+                                <span class='fw-normal'>to our 
+                                    <span class='text-secondary'>
+                                        <a href='./termsAndConditions.html' target='_blank'>terms and conditions of website use</a>
+                                    </span>
                                 </span>
                             </label>
                         </div>
                         <div class='pt-5 form-check'>
                             <input type='checkbox' class='form-check-input' id='candidate_privacy_policy_consent'/>
-                            <label class='form-check-label' for='candidate_privacy_policy_consent'>Agree to our 
-                                <span class='text-secondary'>
-                                    <a href='./privacyPolicy.html' target='_blank'>privacy policy</a>
+                            <label class='form-check-label' for='candidate_privacy_policy_consent'>Agree 
+                                <span class='fw-normal'>to our 
+                                    <span class='text-secondary'>
+                                        <a href='./privacyPolicy.html' target='_blank'>privacy policy</a>
+                                    </span>
                                 </span>
                             </label>
                         </div>
-                        <button id='candidate_registration_form_submit_button' type='submit' class='btn btn-primary my-5'>Submit</button>
+                        <button id='candidate_registration_form_submit_button' type='submit' class='btn btn-primary my-5 most_bottom_els'>Submit</button>
                     </form>
                 </div>
             </div>
@@ -343,11 +350,11 @@
                 &nbsp &nbsp <span class='text-secondary'>connecting to database...</span>
             </div>
             <div id='registration_confirmation_message' class='mt-3 pt-3 fw-normal text-center'>
-                <p>Your application has been registered. A member of our team will be in touch with you shortly. <br/>Thank you.</p>
+                <p class='text_blue'>Your application has been registered. A member of our team will be in touch with you shortly. <br/>Thank you.</p>
             </div>
             <!-- contact -->
             <div id='contact_page' class='page bg-light text-white mt-3 pb-5'>
-                <div class='company_address col-sm-12 col-md-6 p-5'> 
+                <div class='company_address col-sm-12 col-md-6 p-5 most_bottom_els'> 
                     <address class='text_blue'>
                         All4U Healthcare Solutions Ltd<br/>
                         Office 4<br/>
@@ -365,7 +372,7 @@
                         </div>
                     </address>
                 </div>
-                <div id='company_address_map'>  
+                <div id='company_address_map most_bottom_els'>  
                     <div class='gmap_canvas m-3'>
                         <iframe
                             src='https://maps.google.com/maps?q=219%20Kensington%20High%20Street,%20London,%20W8%206BD&t=&z=13&ie=UTF8&iwloc=&output=embed' 

@@ -61,7 +61,6 @@ body{
     }
 }
 .page{
-    /* height: 500px; */
     display: none;
 }
 #home_page{
@@ -83,9 +82,6 @@ body{
     width: 70%;
     margin: auto;
 }
-#registration_confirmation_loading, #registration_confirmation_message{
-    display: none;
-}
 @media only screen and (max-width: 2000px) {
     .nav_item a{
         font-size: large;
@@ -98,6 +94,12 @@ body{
     .candidate_registration_form_section_title_long{
         font-size: .7em;
     }
+}
+#registration_confirmation_loading, #registration_confirmation_message{
+    display: none;
+}
+#registration_confirmation_message{
+    font-size: 1em;
 }
 hr{
     border: 1.5px solid #FF008C;
