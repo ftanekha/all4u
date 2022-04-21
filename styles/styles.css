@@ -146,11 +146,11 @@ hr{
         display: none;
     }
 }
-@media only screen and (max-width: 428px) {
+/* @media only screen and (max-width: 428px) {
     .courriel{
         font-size: .75em;
     }
-}
+} */
 /* footer */
 footer #copyright_info{
     position: fixed;
@@ -162,4 +162,8 @@ footer #social_media_icons{
     position: fixed;
     bottom: 1em;
     right: 0;
+}
+/* underConstructionMessage */
+.show{
+    display: block;
 }

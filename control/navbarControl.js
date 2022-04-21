@@ -1,3 +1,5 @@
+'use strict'
+
 const 
 links = document.querySelectorAll('.nav_link'),
 pages = document.querySelectorAll('.page'),
