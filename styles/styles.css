@@ -122,6 +122,7 @@ hr{
 /* contact page */
 #contact_page{
     position: relative;
+    font-size: .8em;
 }
 .gmap_canvas{
     overflow:hidden;
