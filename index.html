@@ -13,7 +13,7 @@
     />
     <link rel='stylesheet' href='./styles/styles.css'/>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
-    <link rel='stylesheet' href='./styles/socialmedia.css'>
+    <link rel='stylesheet' href='./styles/socialMedia.css'>
     <!-- favicon -->
     <link rel='apple-touch-icon-precomposed' sizes='57x57' href='./images/apple-touch-icon-57x57.png' />
     <link rel='apple-touch-icon-precomposed' sizes='114x114' href='./images/apple-touch-icon-114x114.png' />
@@ -61,7 +61,7 @@
                         {{#each nav}}  
                         <div class='col text-center'>
                             <li class='nav_item list-inline-item text-uppercase fw-bolder'>
-                                <a id={{this.id}} class='nav_link text-decoration-none' href={{this.href}}>{{this.id}}</a>
+                                <a id={{this.id}} class='nav_link text-decoration-none text-dark fw-bolder' href={{this.href}}>{{this.id}}</a>
                             </li>
                         </div>
                         {{/each}}
@@ -97,13 +97,13 @@
         </ul>
     </script>
     <script src='./control/navbar.js' defer></script>
-    <script src='./control/navbarControl.js' defer></script>
-    <script src='./control/main.js' defer></script>
+    <script src='./control/navbarControl.mjs' defer></script>
+    <script src='./control/missionStatement.js' defer></script>
     <script src='./control/generalJobs.js' defer></script>
     <script src='./control/jobDescriptions.js' defer></script>
     <script src='./control/registrationFormSubmit.js' defer></script>
     <script src='./control/toggleSocialMediaIconsView.js' defer></script>
-    <script src='./control/underConstructionPage.js' defer></script>
+    <!-- <script src='./control/underConstructionPage.mjs' defer></script> -->
     <title>All4 Healthcare Solutions</title>
 </head>
 <body>
@@ -385,7 +385,7 @@
             </div>
         </div>
         <!-- underConstructionPageMessage -->
-        <div id='under_construction_page_message' class='container page bg-light hide mx-auto p-3'>
+        <!-- <div id='under_construction_page_message' class='container page bg-light hide mx-auto p-3'>
             <p>
                 Unfortunately, all of our social media pages are currently under construction. Please bear with us.
                 <span class='text_pink fw-bolder' style='position: relative'>
@@ -397,7 +397,7 @@
                     <a id='construction_page_to_contact_page_link' class='fw-bold text-dark' href='#contact' style='text-decoration: none'>contact page</a>.
                 </p>
             </p>
-        </div> 
+        </div>  -->
     </main>
     <footer>
         <div id='footer' class='row mt-3'>
@@ -406,16 +406,16 @@
             </div>
             <div id='social_media_icons' class='col-md-6 col_sm_none center-col text-end'> 
                 <a href='#' class='btn social-icon button' data-abc='true'>
-                    <i class='fa fa-facebook btn-round'></i>
+                    <i class='fa fa-facebook btn-round text-dark fw-bolder'></i>
                 </a> 
                 <a href='#' class='btn social-icon button' data-abc='true'>
-                    <i class='fa fa-instagram btn-round'></i>
+                    <i class='fa fa-instagram btn-round text-dark fw-bolder'></i>
                 </a>
                 <a href='#' class='btn social-icon button' data-abc='true'>
-                    <i class='fa fa-linkedin btn-round'></i>
+                    <i class='fa fa-linkedin btn-round text-dark fw-bolder'></i>
                 </a> 
                 <a href='#' class='btn social-icon button' data-abc='true'>
-                    <i class='fa fa-google-plus btn-round'></i>
+                    <i class='fa fa-google-plus btn-round text-dark fw-bolder'></i>
                 </a> 
             </div>
         </div>

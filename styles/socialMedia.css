@@ -14,7 +14,7 @@
 .social-icon:hover .fa {
     opacity: .8
 }
-.social-icon .fa-facebook {
+/* .social-icon .fa-facebook {
     background-color: #3b5998
 }
 .social-icon .fa-linkedin {
@@ -25,7 +25,7 @@
 }
 .social-icon .fa-instagram {
     background-color: #517fa4
-}
+} */
 
 .social-icon-large {
     margin-right: 20px
@@ -49,7 +49,7 @@
     color: #fff
 }
 
-.social-icon-large:hover .fa-facebook {
+/* .social-icon-large:hover .fa-facebook {
     background-color: #3b5998
 }
 
@@ -63,7 +63,7 @@
 
 .social-icon-large:hover .fa-instagram {
     background-color: #517fa4
-}
+} */
 
 .btn-round {
     border-radius: 4px !important
