@@ -215,7 +215,9 @@
                     <div class='mt-5 pt-3'>
                         <p class='fw-normal'>To registered your interest, fill out the short form below. A member of our team will be in touch with you shortly.</p>
                     </div>
-                    <form id='candidate_registration_form' method='post' action='' class='bg-light rounded-top ext-white mt-3 p-3'>
+                    <form id='candidate_registration_form' action='mailto:farai.tanekha@gmail.com?subject=Candidate%20registration%20form' 
+                        method='post' enctype='multipart/form-data' class='bg-light rounded-top ext-white mt-3 p-3'
+                    >
                         <!-- names -->
                         <div class='my-5 text-center'> <span class='candidate_registration_form_section_title fw-bold text-white bg-secondary p-3'>Personal Information</span></div>
                         <div class='row'>
@@ -301,7 +303,7 @@
                         <hr class='my-5'/>
                         <!-- consent -->
                         <div class='pt-5 form-check'>
-                            <input type='checkbox' class='form-check-input' id='candidate_terms_and_conditions_consent'/>
+                            <input type='checkbox' class='form-check-input' id='candidate_terms_and_conditions_consent' required/>
                             <label class='form-check-label' for='candidate_terms_and_conditions_consent'>Agree 
                                 <span class='fw-normal'>to our 
                                     <span class='text-secondary'>
@@ -311,7 +313,7 @@
                             </label>
                         </div>
                         <div class='pt-5 form-check'>
-                            <input type='checkbox' class='form-check-input' id='candidate_privacy_policy_consent'/>
+                            <input type='checkbox' class='form-check-input' id='candidate_privacy_policy_consent' required/>
                             <label class='form-check-label' for='candidate_privacy_policy_consent'>Agree 
                                 <span class='fw-normal'>to our 
                                     <span class='text-secondary'>

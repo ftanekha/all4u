@@ -2,6 +2,7 @@
 
 const
 registrationPage = document.querySelector('#registration_page'),
+registrationForm = docuement.querySelector('#candidate_registration_form'),
 registrationSubmitButton = document.querySelector('#candidate_registration_form_submit_button'),
 spinner = document.querySelector('#registration_confirmation_loading'),
 confirmationMessage = document.querySelector('#registration_confirmation_message')
@@ -19,6 +20,8 @@ registrationSubmitButton.addEventListener(
         ),
         showConfirmationMessage = setTimeout(
             ()=> {
+                //reset form input fields
+                registrationForm.reset()
                 clearInterval(showSpinner)
                 confirmationMessage.style.display = 'block'
             }, 5e3
