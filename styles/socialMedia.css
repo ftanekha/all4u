@@ -15,29 +15,11 @@
     opacity: .8
 }
 .social-icon .fa-facebook {
-    outline: solid .5em #FF008C;
+    outline: solid .25em #FF008C;
 }
 .social-icon .fa-linkedin {
-    outline: solid .5em #FF008C;
+    outline: solid .25em #FF008C;
 }
-
-/* .social-icon-large {
-    margin-right: 20px
-}
-
-.social-icon-large .fa {
-    font-size: 25px;
-    background: transparent;
-    color: #000;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-    width: 60px;
-    height: 60px !important;
-    line-height: 1;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease
-} */
 
 .social-icon-large:hover .fa {
     color: #fff
